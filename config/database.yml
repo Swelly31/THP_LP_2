@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: THP_LANDING_2_production
+  database: THP_LANDING_2_development
   username: THP_LANDING_2
   password: <%= ENV['THP_LANDING_2_DATABASE_PASSWORD'] %>
